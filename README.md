@@ -4,10 +4,10 @@ Script em docker-compose para que facilmente possa se fazer deploy em uma instan
 # No terminal shh de sua instancia de o comando
    - sudo su
 # Em seguida copie e cole linha por linha, sempre precionando enter após cada colagem
-apt-get update
-apt-get install git-core
-git clone https://github.com/abel-cabral/deploy-rails-with-docker
-cd deploy-rails-with-docker
+   - apt-get update
+   - apt-get install git-core
+   - git clone https://github.com/abel-cabral/deploy-rails-with-docker
+   - cd deploy-rails-with-docker
 # Por ultimo inicie o script de os seguites comando
     - chmod 777 partOne.sh
     - bash /partOne.sh
