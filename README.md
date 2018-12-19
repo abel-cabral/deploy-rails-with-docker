@@ -11,5 +11,4 @@ cd deploy-rails-with-docker
 # Por ultimo inicie o script de os seguites comando
     - chmod 777 partOne.sh
     - bash /partOne.sh
-# Obs o segundo script será chamado automaticamente pelo primeiro, ao ver uma mensagem de sucesso estará tudo finalizado
-# Bom trabalho!
+# Obs o segundo script será chamado automaticamente pelo primeiro, ao ver uma mensagem de sucesso estará tudo finalizado. Bom trabalho!
