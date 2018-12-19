@@ -21,4 +21,4 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 #Call next script
 chmod 777 partTwo.sh
-/partTwo.sh
+bash ./partTwo.sh
