@@ -48,6 +48,7 @@ services:
     image: postgres:9.4.1
     ports:
       - "5432:5432"
+    restart: always  
     environment:
       -  POSTGRES_PASSWORD=password
     volumes:
@@ -57,8 +58,8 @@ services:
   app:
     # Builda a image no DockerFile
     build: .    
-    command: bundle exec rails s -b 0.0.0.0
-      
+    restart: always  
+    command: bundle exec rails s -b 0.0.0.0      
     environment:
       - BUNDLE_PATH=/bundle
     ports:
