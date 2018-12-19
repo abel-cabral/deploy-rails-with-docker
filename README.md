@@ -17,6 +17,6 @@ Script em docker-compose para que facilmente possa se fazer deploy em uma instan
 
 # vídeo de Apoio
    - https://www.youtube.com/watch?v=C4dpplJnXZ8
-Obs o segundo script será chamado automaticamente pelo primeiro, ao ver uma mensagem de sucesso estará tudo finalizado. Bom trabalho!
+   - Obs, caso sua instancia ja possua git, docker-compose instalados e seja capaz de ler um script bash, basta executar apenas o script "partTwo.sh", ele irá criar o Dockerfile e iniciar o docker-compose up.
 
 
