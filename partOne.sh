@@ -19,11 +19,6 @@ sudo systemctl enable docker
 #Docker compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-#Git
-sudo apt-get update
-sudo apt-get install git-core
 #Call next script
-git clone https://github.com/abel-cabral/deploy-rails-with-docker
-cd deploy-rails-with-docker
 chmod 777 partTwo.sh
-/script.sh
+/partTwo.sh
