@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 # Dados de acesso a sua conta
 read -p 'Ruby Version: ' ruby
 read -p 'Git Username: ' uservar
@@ -73,7 +74,7 @@ volumes:
   bundle:
     # Finaliza excluindo dados de login    
 EOT
-
+clear
 echo "                                                                                                                                                          ";
 echo "                                                                                                                                                          ";
 echo "IIIIIIIIIINNNNNNNN        NNNNNNNN               JJJJJJJJJJJUUUUUUUU     UUUUUUUUNNNNNNNN        NNNNNNNNIIIIIIIIII     OOOOOOOOO     RRRRRRRRRRRRRRRRR   ";
@@ -100,7 +101,7 @@ docker-compose build
 # Deleta o arquivo que continha dados do usuario
 rm -f Dockerfile
 # Apenas limpa o terminal bash
-#clear
+clear
 echo "                                                                                                                           ";
 echo "                                                                                                                           ";
 echo "     OOOOOOOOO     NNNNNNNN        NNNNNNNNLLLLLLLLLLL             IIIIIIIIIINNNNNNNN        NNNNNNNNEEEEEEEEEEEEEEEEEEEEEE";
