@@ -100,7 +100,7 @@ docker-compose build
 # Deleta o arquivo que continha dados do usuario
 rm -f Dockerfile
 # Apenas limpa o terminal bash
-clear
+#clear
 echo "                                                                                                                           ";
 echo "                                                                                                                           ";
 echo "     OOOOOOOOO     NNNNNNNN        NNNNNNNNLLLLLLLLLLL             IIIIIIIIIINNNNNNNN        NNNNNNNNEEEEEEEEEEEEEEEEEEEEEE";
