@@ -16,7 +16,7 @@ Script em docker-compose para que facilmente possa se fazer deploy em uma instan
     - bash ./partOne.sh
 
 # vídeo de Apoio
-
+   - https://www.youtube.com/watch?v=C4dpplJnXZ8
 Obs o segundo script será chamado automaticamente pelo primeiro, ao ver uma mensagem de sucesso estará tudo finalizado. Bom trabalho!
 
 
